@@ -1,0 +1,19 @@
+#pedirTurno{
+
+     display: flex;
+     flex-direction: column;
+     width: 30%
+
+}
+
+.fondoRojo{
+	background:red;
+	color: black;
+}
+
+.fondoVioleta{
+
+color: black;
+background:violet;
+
+}

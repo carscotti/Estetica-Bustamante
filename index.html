@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link href="estilos.css" rel="stylesheet" type="text/css">
+
+        <title>Clase 12 - Pre-Entrega</title>
+</head>
+
+<body>
+    <header id="bienvenida"><h1>Bienvenidx a Estética Bustamante</h1></header>
+    <!-- <section>
+        <h2 class="text-center mt-5">
+            Seleccioná el servicio
+        </h2>
+        <div class="container" id="productos-div"></div>
+    </section> -->
+    <section>
+       
+        <div class="container">
+            <form id="myForm">
+                <h2 class="text-center mt-5">
+            Por favor, ingresá los siguientes datos
+        </h2>
+                <div class="mb-3">
+                    <select name="servicio" id="servicio">
+                        <option value="seleccion">Seleccione una opcion</option>	
+                        <option value="unias-esculpidas">Uñas esculpidas</option>	
+                        <option value="depilacion">Depilación definitiva</option>
+                        <option value="cejas">Perfilamiento de cejas</option>
+                    </select>
+                
+                <div class="mb-3">
+                    <label for="fechaReg" class="form-label" id="fecha">Fecha de reserva</label>
+                    <input id="fechaReg" type="date">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label" id="email">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div id="error1">
+
+                </div>
+                <button type="submit" class="btn btn-primary"  id="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <div id="confirmacion"></div>
+    <div id="error"></div>
+
+    <footer></footer>
+    <script src="js/form.js"></script>
+    <script defer src="js/miarchivo.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</body>
+
+</html>
